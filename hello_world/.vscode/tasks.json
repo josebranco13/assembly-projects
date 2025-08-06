@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build e Executar Assembly",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "nasm -f win32 src\\main.asm -o build\\main.obj && gcc build\\main.obj -o build\\hello.exe -Wl,--subsystem=console -lmsvcrt && build\\hello.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
