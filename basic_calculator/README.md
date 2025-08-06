@@ -13,7 +13,7 @@ Compiled and linked with **GCC (MinGW)**, fully integrated with **Visual Studio 
 ## 📁 Project Structure
 
 ```
-simple_math/
+basic_calculator/
 ├─ src/
 │  └─ main.asm           # Assembly source code
 ├─ build/                 # Compiled object files and executables
@@ -41,7 +41,7 @@ simple_math/
 3. Run the program from the terminal:
 
 ```
-build\simple_math.exe
+build\basic_calculator.exe
 ```
 
 Example output:
