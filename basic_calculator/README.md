@@ -1,9 +1,3 @@
-Ah, entendi! Tu queres **um ficheiro `README.md` pronto**, não um YAML para colar, correto?
-
-Então aqui está o conteúdo final para o **`README.md`** do projeto `simple_math`:
-
----
-
 # Simple Math in Assembly (NASM + GCC on Windows)
 
 This project demonstrates a simple 32-bit Assembly program (using NASM) that:
