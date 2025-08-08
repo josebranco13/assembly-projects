@@ -5,7 +5,7 @@
             "name": "Debug Assembly",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\build\\basic_calculator.exe",
+            "program": "${workspaceFolder}\\build\\convert_number.exe",
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true,
             "MIMode": "gdb",
